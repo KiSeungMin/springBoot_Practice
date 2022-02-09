@@ -15,7 +15,7 @@ repositories {
 // 라이브러리
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-web'	// 의존 관계에 의해서 import 해온다.
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
